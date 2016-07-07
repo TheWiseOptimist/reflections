@@ -16,6 +16,9 @@ directories you want to include in version control.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+By running git diff & git diff --staged, you can confirm that you have added 
+just one logical change to the staging area before committing.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
