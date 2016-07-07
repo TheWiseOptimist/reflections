@@ -1,7 +1,17 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+The repository is created without any commits.  At this point, the framework is
+enabled, but the work still needs to be added.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+The working directory is the container for the repository.  As per its name,
+the staging area lets you review what information you want to add to the
+repository.  While this may seem like extra work, especially if you want to 
+add the entire working directory to the repository, it makes the program much
+more robust and flexible.  It allows you to pick and choose which files and/or
+directories you want to include in version control.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
