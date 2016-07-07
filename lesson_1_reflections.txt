@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It is quite helpful.  I've been using the compare and contrast techinique
+    manually for years, both inside and outside of the computer world.  The 
+    value here as I see it is in automating the process.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    First, it would have saved uncounted hours of revisions and lost work due
+    to power failures, failures to save, and the utter confidence of 
+    infallibility.  Going forward, it will give me the tools to examine what
+    I've already tried, whether successfully or unsuccessfully.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The main pro for me is that you are able to save the work in logical steps,
+    or waypoints, making it easy to retrace your thinking process and progress.
+
+    The major downside, for me at least is the possibility of failure to make
+    the commits due to over-confidence or just forgetfulness.  Another con
+    would be the possibility of losing work due to a power failure or other 
+    unavoidable/unavoided interruption.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Typically, programming involves multiple files which are interrelated, while
+    word processing files tend to be much more loosely coupled.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log gets the list of changes, and git diff shows the cumulative changes
+    between the commits, so it is possible to view the history.  Hopefully a 
+    cleaner way exists.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    When you know that you always have a working copy, there is no fear of 
+    irredeemably toasting the code.  I'm not certain that lack of fear is 
+    the same thing as confidence, but it's close enough.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I will use it mostly with Android Studio and NetBeans.
+    
