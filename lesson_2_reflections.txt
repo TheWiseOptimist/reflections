@@ -22,6 +22,10 @@ just one logical change to the staging area before committing.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+It would seem that branches would be appropriate when considering a change in 
+direction of the code, or at least an exploratory change.  It would also make
+sense to create a branch when a major stepping-stone, or plateau is achieved.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
