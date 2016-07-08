@@ -34,5 +34,10 @@ diagram to help you visualize the branch structure.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+In my particular case, it was a learning experience.  I apparently had some
+unsaved/unmerged items, and it took several passes to merge.  I kept having
+to restore and delete and start over.  The end result was that the code
+improvements from each branch were incorporated into the end product.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
