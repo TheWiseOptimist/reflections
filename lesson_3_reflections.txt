@@ -35,7 +35,11 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I would preferably use a screen-sharing collaborative tool, upload files to
+    the cloud for revision and review, or pass files back and forth via email.
+    Screen sharing would be faster if both/all parties are available at the 
+    same time.  The others would work similarly to Git, but would entail more
+    manual review.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
