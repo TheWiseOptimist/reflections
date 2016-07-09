@@ -27,7 +27,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It would seem to be a good thing to know what others are working on and
+    the status of their progress.  It might affect your own thinking or planning,
+    for better or worse, but would likely save some duplication of effort
+    and would be likely to reduce conflicts, or make them easier to resolve.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
