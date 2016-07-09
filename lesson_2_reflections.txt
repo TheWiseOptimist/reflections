@@ -1,50 +1,50 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-The repository is created without any commits.  At this point, the framework is
-enabled, but the work still needs to be added.
+	The repository is created without any commits.  At this point, the framework is 
+	enabled, but the work still needs to be added.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-The working directory is the container for the repository.  As per its name,
-the staging area lets you review what information you want to add to the
-repository.  While this may seem like extra work, especially if you want to 
-add the entire working directory to the repository, it makes the program much
-more robust and flexible.  It allows you to pick and choose which files and/or
-directories you want to include in version control.
+	The working directory is the container for the repository.  As per its name, 
+	the staging area lets you review what information you want to add to the 
+	repository.  While this may seem like extra work, especially if you want to 
+	add the entire working directory to the repository, it makes the program much 
+	more robust and flexible.  It allows you to pick and choose which files and/or 
+	directories you want to include in version control.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-By running git diff & git diff --staged, you can confirm that you have added 
-just one logical change to the staging area before committing.
+	By running git diff & git diff --staged, you can confirm that you have added 
+	just one logical change to the staging area before committing.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-It would seem that branches would be appropriate when considering a change in 
-direction of the code, or at least an exploratory change.  It would also make
-sense to create a branch when a major stepping-stone, or plateau is achieved.
+	It would seem that branches would be appropriate when considering a change in 
+	direction of the code, or at least an exploratory change.  It would also make 
+	sense to create a branch when a major stepping-stone, or plateau is achieved.
 
 How do the diagrams help you visualize the branch structure?
 
-That seems like a redundant or self-answering questions.  You create the 
-diagram to help you visualize the branch structure.
+	That seems like a redundant or self-answering questions.  You create the 
+	diagram to help you visualize the branch structure.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-In my particular case, it was a learning experience.  I apparently had some
-unsaved/unmerged items, and it took several passes to merge.  I kept having
-to restore and delete and start over.  The end result was that the code
-improvements from each branch were incorporated into the end product.
+	In my particular case, it was a learning experience.  I apparently had some 
+	unsaved/unmerged items, and it took several passes to merge.  I kept having 
+	to restore and delete and start over.  The end result was that the code 
+	improvements from each branch were incorporated into the end product.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
-Pro
-The automatic merge works well and saves time in many instances.
+	Pro 
+	The automatic merge works well and saves time in many instances.
 
-Con
-It is possible that the algorithm may fail or miss something.  In case of
-more complex changes, it may make the combination more difficult.
+	Con 
+	It is possible that the algorithm may fail or miss something.  In case of 
+	more complex changes, it may make the combination more difficult.
